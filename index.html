@@ -10,7 +10,20 @@
 
 <div id="root"></div>
 
-<script src="bundle.js"></script>
 
+
+<script src="https://www.gstatic.com/firebasejs/3.7.2/firebase.js"></script>
+<script>
+    // Initialize Firebase
+    var config = {
+        apiKey: "AIzaSyBh0M3RqZTO6yFkTNHYuE1jK2id3EDV6uY",
+        authDomain: "introx-3ec19.firebaseapp.com",
+        databaseURL: "https://introx-3ec19.firebaseio.com",
+        storageBucket: "introx-3ec19.appspot.com",
+        messagingSenderId: "164045585969"
+    };
+    firebase.initializeApp(config);
+</script>
+<script src="bundle.js"></script>
 </body>
 </html>
