@@ -48,8 +48,8 @@ h1, h2, h3, h4, p {
   align-items: center;
   width: 40%;
   height: auto;
-  padding: 20px;
-  background-color: rgba(51, 56, 64, 0.8);
+  padding: 40px;
+  background-color: rgba(2, 3, 3, 0.8);
 
   h2 {
     text-align: center;
@@ -141,12 +141,14 @@ footer {
   height: 60vh;
   padding: 4%;
   text-align: center;
+  font-family: $content-font;
   box-sizing: border-box;
 }
 
 .costumer-image {
   width: 300px;
   height: 160px;
+  margin-top: 40px;
 }
 
 //.fa.fa-copyright {

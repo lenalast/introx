@@ -63,7 +63,7 @@ const App = ({children}) => (
 
 const Costumers = () =>
     ( <div className="costumers">
-            <h1>Ett axplock av våra kunder</h1>
+            <h1>Några av våra kunder</h1>
             <img className="costumer-image" src={require('./assets/peace.png')}/>
             <img className="costumer-image" src={require('./assets/bilforum.png')}/>
             <img className="costumer-image" src={require('./assets/wayoutwest.png')}/>
